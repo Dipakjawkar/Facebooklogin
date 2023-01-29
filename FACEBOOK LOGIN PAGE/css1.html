@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook_login page</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+            background-color: rgba(0, 0, 0, 0.756);
+        }
+        main{
+            
+            display: flex;
+            justify-content: center;
+            
+        }
+         p {
+            display: flex;
+            justify-content: center;
+            padding: 5vh ;
+            font-size: 4vh;
+            color: rgb(54, 54, 207);
+        }
+        .contan{
+            background-color: rgb(34, 33, 33);
+            height: 45vh;
+            width: 40vh;
+            border-radius: 3vh;
+            
+        }
+        #txt1{
+            margin: 5vh 2vh 0vh 2vh;
+            width: 30vh;
+            height: 4vh;
+            padding: 0vh 2vh;
+            
+            border-radius: 2vh;
+            font-size: 2vh;
+
+            border: 1vh solid black;
+
+            color: white;
+        }
+        #txt2{
+            margin: 2vh 2vh 0vh 2vh;
+            width: 30vh;
+            font-size: 2vh;
+            height: 4vh;
+            color: white;
+            padding: 0vh 2vh;
+            border-radius: 2vh;
+            border: 1vh solid black;
+        }
+        #bt{
+            
+            margin: 2vh auto;
+            height: 6vh;
+            width: 32vh;
+            display: flex;
+            border-radius: 2vh;
+            justify-content: center;
+            color: white;
+            font-size: 2vh;
+            
+            
+            background-color: rgb(54, 54, 207);
+
+        }
+        footer{
+            background-color: black;
+            height: 30vh;
+        }
+        img{
+            height: 10vh;
+        }
+        .forget{
+            color: white;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(34, 33, 33);
+            color: white;
+            
+            font-size: 2vh;
+        }
+        #bt2{
+    
+            margin: 2vh auto;
+            height: 6vh;
+            width: 32vh;
+            display: flex;
+            border-radius: 2vh;
+            justify-content: center;
+            font-size: 2vh;
+            color: white;
+            
+            
+            
+            background-color: rgb(119, 231, 79);
+        }
+       #bt:hover{
+        background-color: rgb(45, 45, 249);
+        
+        border: 10vh;
+       }
+       #bt2:hover{
+        background-color: rgb(81, 243, 22);
+        border: 10vh;
+       }
+       .forget:hover{
+        color: rgb(73, 73, 255);
+       }
+       
+
+        
+    </style>
+</head>
+<body>
+    <header>
+
+
+    </header>
+   
+    <p><img src="facebookk.svg"></p>
+    <main>
+    
+        
+        <div class="contan">
+            <input type="text" id="txt1" placeholder="Enter Userid">
+            <input type="text" id="txt2"  placeholder="Enter Password">
+            <input type="button" onclick="location.href='https://www.facebook.com';" value="Log In" id="bt">
+            <a class="forget" href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgotten password?</a>
+            <input type="button" onclick="location.href='https://www.facebook.com';" value="CREATE NEW ACCOUT" id="bt2">
+        </div>
+
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
